@@ -16,9 +16,9 @@ public class Stick {
     private int height = 30;
 
     public Stick(Color color) {
-        int max =255;
-        int min=0;
-        int rand =(int) Math.random() * (max-min+1)+min;
+        int max = 255;
+        int min = 0;
+        int rand = (int) Math.random() * (max-min+1)+min;
         this.color = new Color(rand,rand,rand);
     }
     
